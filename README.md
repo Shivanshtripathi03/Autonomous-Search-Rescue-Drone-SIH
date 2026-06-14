@@ -5,12 +5,12 @@
 <h1 align="center">🚁 Autonomous Search & Rescue Drone System</h1>
 
 <p align="center">
-  <strong>Smart India Hackathon (SIH) — Team RescueWings</strong><br/>
+  <strong>Smart India Hackathon 2025 (SIH) — Team RescueWings</strong><br/>
   <em>Top 180 teams selected out of 900+ competing teams</em>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/SIH-Top_180-gold?style=for-the-badge&logo=hackthebox&logoColor=white" alt="SIH Top 180"/>
+  <img src="https://img.shields.io/badge/SIH_2025-Top_180-gold?style=for-the-badge&logo=hackthebox&logoColor=white" alt="SIH 2025 Top 180"/>
   <img src="https://img.shields.io/badge/Flight_Controller-PX4-blue?style=for-the-badge&logo=drone&logoColor=white" alt="PX4"/>
   <img src="https://img.shields.io/badge/ML-YOLOv8-purple?style=for-the-badge&logo=python&logoColor=white" alt="YOLOv8"/>
   <img src="https://img.shields.io/badge/Hardware-Raspberry_Pi-red?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi"/>
@@ -41,11 +41,11 @@
 
 ## 🎯 Overview
 
-A **dual-drone disaster-response platform** built for the Smart India Hackathon (SIH) that autonomously covers a search area defined by four GPS waypoints. The system features a primary search drone equipped with a Raspberry Pi camera for live video transmission to a ground station, where a trained ML model performs real-time aerial detection of humans and animals trapped in disaster zones.
+A **dual-drone disaster-response platform** built for the **Smart India Hackathon 2025 (SIH 2025)** that autonomously covers a search area defined by four GPS waypoints. The system features a primary search drone equipped with a Raspberry Pi camera for live video transmission to a ground station, where a trained ML model performs real-time aerial detection of humans and animals trapped in disaster zones.
 
 The standout innovation is a **deployable mini-drone** designed for navigating tight, collapsed spaces that the primary drone cannot access — making our system uniquely effective for post-earthquake and building-collapse rescue scenarios.
 
-> **🏆 Achievement**: Selected among the **Top 180 teams** out of **900+ competing teams** in the Smart India Hackathon.
+> **🏆 Achievement**: Selected among the **Top 180 teams** out of **900+ competing teams** in the **Smart India Hackathon 2025**.
 
 ---
 
@@ -410,7 +410,7 @@ This is the complete operational workflow for deploying the mini-drone during a 
 
 ## 📸 Hackathon Gallery
 
-Real photos from the **Smart India Hackathon** — our mini-drone in action during the demo:
+Real photos from the **Smart India Hackathon 2025** — our mini-drone in action during the demo:
 
 <p align="center">
   <img src="assets/hackathon_mini_drone_flight.png" alt="Mini-drone in flight during SIH demo" width="700"/>
@@ -448,7 +448,7 @@ https://github.com/user-attachments/assets/hackathon_drone_demo.mp4
 
 </p>
 
-> 📹 **Live flight demo** of the mini-drone during the Smart India Hackathon — showcasing autonomous flight capabilities
+> 📹 **Live flight demo** of the mini-drone during the Smart India Hackathon 2025 — showcasing autonomous flight capabilities
 
 <video src="assets/hackathon_drone_demo.mp4" width="700" controls></video>
 
@@ -481,10 +481,10 @@ https://github.com/user-attachments/assets/hackathon_drone_demo.mp4
 
 ## 📜 License
 
-This project was built as part of the **Smart India Hackathon (SIH)** competition. The documentation and design materials in this repository are shared for educational and portfolio purposes.
+This project was built as part of the **Smart India Hackathon 2025 (SIH 2025)** competition. The documentation and design materials in this repository are shared for educational and portfolio purposes.
 
 ---
 
 <p align="center">
-  <strong>Built with ❤️ by Team RescueWings for Smart India Hackathon</strong>
+  <strong>Built with ❤️ by Team RescueWings for Smart India Hackathon 2025</strong>
 </p>
