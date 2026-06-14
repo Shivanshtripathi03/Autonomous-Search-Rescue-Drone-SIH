@@ -2,7 +2,7 @@
   <img src="assets/system_architecture.png" alt="RescueWings System Architecture" width="700"/>
 </p>
 
-<h1 align="center">🚁 Autonomous Search & Rescue Drone System</h1>
+<h1 align="center">Autonomous Search & Rescue Drone System</h1>
 
 <p align="center">
   <strong>Smart India Hackathon 2025 (SIH) — Team RescueWings</strong><br/>
@@ -19,37 +19,37 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [Overview](#-overview)
-- [Problem Statement](#-problem-statement)
-- [Our Solution](#-our-solution)
-- [System Architecture](#-system-architecture)
-- [Key Features](#-key-features)
-- [Dual-Drone System](#-dual-drone-system)
-- [Autonomous Area Coverage](#-autonomous-area-coverage)
-- [ML-Based Detection](#-ml-based-detection)
-- [Ground Station](#-ground-station)
-- [Hardware Components](#-hardware-components)
-- [Software Stack](#-software-stack)
-- [Simulation & Testing](#-simulation--testing)
-- [Mini-Drone Deployment Workflow](#-mini-drone-deployment-workflow)
-- [Hackathon Gallery](#-hackathon-gallery)
-- [Team](#-team)
+- [Overview](#overview)
+- [Problem Statement](#problem-statement)
+- [Our Solution](#our-solution)
+- [System Architecture](#system-architecture)
+- [Key Features](#key-features)
+- [Dual-Drone System](#dual-drone-system)
+- [Autonomous Area Coverage](#autonomous-area-coverage)
+- [ML-Based Detection](#ml-based-detection)
+- [Ground Station](#ground-station)
+- [Hardware Components](#hardware-components)
+- [Software Stack](#software-stack)
+- [Simulation & Testing](#simulation--testing)
+- [Mini-Drone Deployment Workflow](#mini-drone-deployment-workflow)
+- [Hackathon Gallery](#hackathon-gallery)
+- [Team](#team)
 
 ---
 
-## 🎯 Overview
+## Overview
 
 A **dual-drone disaster-response platform** built for the **Smart India Hackathon 2025 (SIH 2025)** that autonomously covers a search area defined by four GPS waypoints. The system features a primary search drone equipped with a Raspberry Pi camera for live video transmission to a ground station, where a trained ML model performs real-time aerial detection of humans and animals trapped in disaster zones.
 
 The standout innovation is a **deployable mini-drone** designed for navigating tight, collapsed spaces that the primary drone cannot access — making our system uniquely effective for post-earthquake and building-collapse rescue scenarios.
 
-> **🏆 Achievement**: Selected among the **Top 180 teams** out of **900+ competing teams** in the **Smart India Hackathon 2025**.
+> **Achievement**: Selected among the **Top 180 teams** out of **900+ competing teams** in the **Smart India Hackathon 2025**.
 
 ---
 
-## 🔴 Problem Statement
+## Problem Statement
 
 During natural disasters — earthquakes, floods, building collapses — traditional search and rescue operations are:
 
@@ -66,7 +66,7 @@ There is a critical need for an **autonomous aerial search system** that can:
 
 ---
 
-## 💡 Our Solution
+## Our Solution
 
 <p align="center">
   <img src="assets/ground_station_ml.png" alt="Ground Station ML Detection" width="650"/>
@@ -91,7 +91,7 @@ We built a **two-tier drone system** combining autonomous wide-area coverage wit
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -134,22 +134,22 @@ For a detailed breakdown, see [docs/system-architecture.md](docs/system-architec
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 | Feature | Description |
 |---------|------------|
-| 🗺️ **4-Point GPS Coverage** | Define any quadrilateral search zone using four GPS coordinates; the drone auto-generates a complete coverage path |
-| 🤖 **Autonomous Flight** | Fully autonomous serpentine search pattern with no manual intervention required |
-| 📸 **Live Video Streaming** | Raspberry Pi camera streams real-time aerial footage to the ground station |
-| 🧠 **ML Human/Animal Detection** | Trained detection model identifies survivors and animals from aerial footage |
-| 🚀 **Mini-Drone Deployment** | Deployable mini-drone for exploring collapsed structures and tight spaces |
-| 🔄 **Mid-Mission Re-attach** | Mini-drone docks back to the primary drone for seamless mission continuation |
-| 📡 **Ground Station Integration** | QGroundControl-based mission planning, telemetry monitoring, and alert system |
-| 🧪 **HITL Simulation** | Validated using PX4 Hardware-In-The-Loop simulation before real flights |
+| **4-Point GPS Coverage** | Define any quadrilateral search zone using four GPS coordinates; the drone auto-generates a complete coverage path |
+| **Autonomous Flight** | Fully autonomous serpentine search pattern with no manual intervention required |
+| **Live Video Streaming** | Raspberry Pi camera streams real-time aerial footage to the ground station |
+| **ML Human/Animal Detection** | Trained detection model identifies survivors and animals from aerial footage |
+| **Mini-Drone Deployment** | Deployable mini-drone for exploring collapsed structures and tight spaces |
+| **Mid-Mission Re-attach** | Mini-drone docks back to the primary drone for seamless mission continuation |
+| **Ground Station Integration** | QGroundControl-based mission planning, telemetry monitoring, and alert system |
+| **HITL Simulation** | Validated using PX4 Hardware-In-The-Loop simulation before real flights |
 
 ---
 
-## 🛸 Dual-Drone System
+## Dual-Drone System
 
 <p align="center">
   <img src="assets/mini_drone_deployment.png" alt="Mini Drone Deployment Sequence" width="700"/>
@@ -171,7 +171,7 @@ For a detailed breakdown, see [docs/system-architecture.md](docs/system-architec
 
 ---
 
-## 🗺 Autonomous Area Coverage
+## Autonomous Area Coverage
 
 The operator defines a rectangular search area by inputting **4 GPS waypoints** (corners). The system then:
 
@@ -200,14 +200,14 @@ The operator defines a rectangular search area by inputting **4 GPS waypoints** 
 
 ---
 
-## 🧠 ML-Based Detection
+## ML-Based Detection
 
 ### Model Architecture
 - **Base Model**: YOLOv8 (You Only Look Once v8) — optimized for real-time object detection
 - **Training Data**: Aerial disaster imagery datasets including drone-captured footage of disaster sites
 - **Detection Classes**:
-  - 🟢 **Human** — survivors, injured persons, people signaling for help
-  - 🟡 **Animal** — pets and livestock that may need rescue
+  - **Human** — survivors, injured persons, people signaling for help
+  - **Animal** — pets and livestock that may need rescue
 
 ### Detection Pipeline
 
@@ -226,8 +226,8 @@ Drone Camera (Raspberry Pi)
         ▼
   YOLOv8 Inference Engine
         │
-        ├──→ Human Detected → 🚨 Alert + GPS Tag
-        ├──→ Animal Detected → ⚠️ Alert + GPS Tag
+        ├──→ Human Detected → Alert + GPS Tag
+        ├──→ Animal Detected → Alert + GPS Tag
         └──→ No Detection → Continue Scanning
 ```
 
@@ -239,7 +239,7 @@ Drone Camera (Raspberry Pi)
 
 ---
 
-## 📡 Ground Station
+## Ground Station
 
 The ground station is the command center for the entire operation, running on a laptop:
 
@@ -259,7 +259,7 @@ The ground station is the command center for the entire operation, running on a 
 
 ---
 
-## 🔧 Hardware Components
+## Hardware Components
 
 ### Primary Drone
 
@@ -269,8 +269,8 @@ The ground station is the command center for the entire operation, running on a 
 | Flight Controller | Pixhawk 4 / Cube Orange |
 | Firmware | PX4 Autopilot |
 | GPS | u-blox M8N with compass |
-| Motors | 2212 920KV brushless (×6) |
-| ESCs | 30A BLHeli (×6) |
+| Motors | 2212 920KV brushless (x6) |
+| ESCs | 30A BLHeli (x6) |
 | Battery | 4S 5000mAh LiPo |
 | Camera | Raspberry Pi Camera Module v2 |
 | Companion Computer | Raspberry Pi 4 (4GB) |
@@ -284,7 +284,7 @@ The ground station is the command center for the entire operation, running on a 
 | Frame | Micro quadcopter (~100mm) |
 | Flight Controller | Lightweight FC (e.g., BetaFlight) |
 | Camera | Micro FPV camera |
-| Motors | 0802/1103 brushless (×4) |
+| Motors | 0802/1103 brushless (x4) |
 | Battery | 1S 450mAh LiPo |
 | Receiver | FrSky/ELRS micro RX |
 | Docking Mechanism | Neodymium magnets + alignment pins |
@@ -301,7 +301,7 @@ The ground station is the command center for the entire operation, running on a 
 
 ---
 
-## 💻 Software Stack
+## Software Stack
 
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
@@ -317,7 +317,7 @@ The ground station is the command center for the entire operation, running on a 
 
 ---
 
-## 🧪 Simulation & Testing
+## Simulation & Testing
 
 ### PX4 Hardware-In-The-Loop (HITL) Simulation
 
@@ -348,7 +348,7 @@ Before flying the real drone, we validated the entire system using **PX4 HITL si
 
 ---
 
-## 🚀 Mini-Drone Deployment Workflow
+## Mini-Drone Deployment Workflow
 
 This is the complete operational workflow for deploying the mini-drone during a rescue mission:
 
@@ -408,53 +408,45 @@ This is the complete operational workflow for deploying the mini-drone during a 
 
 ---
 
-## 📸 Hackathon Gallery
+## Hackathon Gallery
 
 Real photos from the **Smart India Hackathon 2025** — our mini-drone in action during the demo:
 
 <p align="center">
   <img src="assets/hackathon_mini_drone_flight.png" alt="Mini-drone in flight during SIH demo" width="700"/>
 </p>
-<p align="center"><em>🚁 Mini-drone in flight during the SIH live demonstration</em></p>
+<p align="center"><em>Mini-drone in flight during the SIH live demonstration</em></p>
 
 <br/>
 
 <p align="center">
   <img src="assets/hackathon_mini_drone_ground.jpg" alt="Mini-drone on the ground" width="700"/>
 </p>
-<p align="center"><em>🔧 Mini-drone on the ground — custom-built micro quadcopter with FPV camera</em></p>
+<p align="center"><em>Mini-drone on the ground — custom-built micro quadcopter with FPV camera</em></p>
 
 <br/>
 
 <p align="center">
   <img src="assets/hackathon_mini_drone_stage.jpg" alt="Mini-drone on the hackathon stage" width="700"/>
 </p>
-<p align="center"><em>🎪 Mini-drone on the hackathon stage — ready for the live demo</em></p>
+<p align="center"><em>Mini-drone on the hackathon stage — ready for the live demo</em></p>
 
 <br/>
 
 <p align="center">
   <img src="assets/hackathon_pixhawk_electronics.jpg" alt="Pixhawk flight controller and drone electronics" width="500"/>
 </p>
-<p align="center"><em>⚡ Pixhawk flight controller with electronics — the brain of the drone powered up and ready</em></p>
+<p align="center"><em>Pixhawk flight controller with electronics — the brain of the drone powered up and ready</em></p>
 
 <br/>
 
-### 🎬 Live Demo Video
+### Live Demo Video
 
-<p align="center">
-
-https://github.com/user-attachments/assets/hackathon_drone_demo.mp4
-
-</p>
-
-> 📹 **Live flight demo** of the mini-drone during the Smart India Hackathon 2025 — showcasing autonomous flight capabilities
-
-<video src="assets/hackathon_drone_demo.mp4" width="700" controls></video>
+> **[Watch the live flight demo video (MP4)](https://github.com/Shivanshtripathi03/Autonomous-Search-Rescue-Drone-SIH/raw/main/assets/hackathon_drone_demo.mp4)** — Mini-drone flight during the Smart India Hackathon 2025 showcasing autonomous flight capabilities.
 
 ---
 
-## 👥 Team
+## Team
 
 **Team Name**: RescueWings
 
@@ -469,7 +461,7 @@ https://github.com/user-attachments/assets/hackathon_drone_demo.mp4
 
 ---
 
-## 📄 Documentation
+## Documentation
 
 - [System Architecture Details](docs/system-architecture.md)
 - [Hardware Setup Guide](docs/hardware-setup.md)
@@ -479,12 +471,12 @@ https://github.com/user-attachments/assets/hackathon_drone_demo.mp4
 
 ---
 
-## 📜 License
+## License
 
 This project was built as part of the **Smart India Hackathon 2025 (SIH 2025)** competition. The documentation and design materials in this repository are shared for educational and portfolio purposes.
 
 ---
 
 <p align="center">
-  <strong>Built with ❤️ by Team RescueWings for Smart India Hackathon 2025</strong>
+  <strong>Built by Team RescueWings for Smart India Hackathon 2025</strong>
 </p>
