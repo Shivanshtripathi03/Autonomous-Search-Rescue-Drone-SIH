@@ -34,6 +34,7 @@
 - [Software Stack](#-software-stack)
 - [Simulation & Testing](#-simulation--testing)
 - [Mini-Drone Deployment Workflow](#-mini-drone-deployment-workflow)
+- [Hackathon Gallery](#-hackathon-gallery)
 - [Team](#-team)
 
 ---
@@ -404,6 +405,31 @@ This is the complete operational workflow for deploying the mini-drone during a 
           │  from last position    │
           └────────────────────────┘
 ```
+
+---
+
+## 📸 Hackathon Gallery
+
+Real photos from the **Smart India Hackathon** — our mini-drone in action during the demo:
+
+<p align="center">
+  <img src="assets/hackathon_mini_drone_flight.png" alt="Mini-drone in flight during SIH demo" width="700"/>
+</p>
+<p align="center"><em>🚁 Mini-drone in flight during the SIH live demonstration</em></p>
+
+<br/>
+
+<p align="center">
+  <img src="assets/hackathon_mini_drone_ground.jpg" alt="Mini-drone on the ground" width="700"/>
+</p>
+<p align="center"><em>🔧 Mini-drone on the ground — custom-built micro quadcopter with FPV camera</em></p>
+
+<br/>
+
+<p align="center">
+  <img src="assets/hackathon_mini_drone_stage.jpg" alt="Mini-drone on the hackathon stage" width="700"/>
+</p>
+<p align="center"><em>🎪 Mini-drone on the hackathon stage — ready for the live demo</em></p>
 
 ---
 
