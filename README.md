@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Smart India Hackathon 2025 (SIH) — Team RescueWings</strong><br/>
-  <em>Top 180 teams selected out of 900+ competing teams</em>
+  <em>Top 180 teams selected out of 900+ competing teams from our college</em>
 </p>
 
 <p align="center">
@@ -45,7 +45,7 @@ A **dual-drone disaster-response platform** built for the **Smart India Hackatho
 
 The standout innovation is a **deployable mini-drone** designed for navigating tight, collapsed spaces that the primary drone cannot access — making our system uniquely effective for post-earthquake and building-collapse rescue scenarios.
 
-> **Achievement**: Selected among the **Top 180 teams** out of **900+ competing teams** in the **Smart India Hackathon 2025**.
+> **Achievement**: Selected among the **Top 180 teams** out of **900+ competing teams from our college** in the **Smart India Hackathon 2025**.
 
 ---
 
