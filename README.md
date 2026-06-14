@@ -438,6 +438,20 @@ Real photos from the **Smart India Hackathon** — our mini-drone in action duri
 </p>
 <p align="center"><em>⚡ Pixhawk flight controller with electronics — the brain of the drone powered up and ready</em></p>
 
+<br/>
+
+### 🎬 Live Demo Video
+
+<p align="center">
+
+https://github.com/user-attachments/assets/hackathon_drone_demo.mp4
+
+</p>
+
+> 📹 **Live flight demo** of the mini-drone during the Smart India Hackathon — showcasing autonomous flight capabilities
+
+<video src="assets/hackathon_drone_demo.mp4" width="700" controls></video>
+
 ---
 
 ## 👥 Team
